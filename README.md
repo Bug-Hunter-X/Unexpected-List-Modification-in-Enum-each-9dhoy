@@ -1,0 +1,1 @@
+This example demonstrates a common misconception when working with lists in Elixir.  Because Elixir uses immutable data structures, directly modifying a list inside a loop doesn't change the original list.  The solution shows how to properly achieve the desired outcome using List.delete and creating a new list.
